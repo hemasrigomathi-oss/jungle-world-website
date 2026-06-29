@@ -1,0 +1,722 @@
+/*home*/
+
+
+.navbar-brand img {
+    border: 1px solid white;
+    border-radius: 100px;
+    transition: 0.5;
+}
+
+.navbar-brand:hover {
+    transform: scale(1.1);
+}
+
+.navbar-nav .nav-link {
+    color: olivedrab !important;
+    text-transform: uppercase;
+
+}
+
+#offcanvasNavbarLabel {
+    color: olive !important;
+    text-transform: uppercase;
+}
+
+.offcanvas-body ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 20px;
+}
+
+.offcanvas-body a{
+    text-decoration: none;
+    color: olivedrab;
+
+}
+
+
+
+/*carousel*/
+ .carousel-item{
+    height: 900px;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+/*about section*/
+
+.secty {
+    padding-top: 100px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: olivedrab;
+}
+
+.sectyy p{
+    width: 100%;
+    max-width: 1150px;
+    padding: 20px;
+    color: black;
+    margin: auto;
+}
+
+video {
+    height: auto;
+    max-width: 600px;
+    width: 100%;
+}
+
+/*feature animals*/
+
+.feat h2{
+    padding-top: 100px;
+}
+.one img {
+    border-radius: 30px;
+    transition: 0.5s;
+}
+
+.one h5,
+.one p{
+    text-align: center;
+}
+
+.one img:hover {
+    transform: scale(1.1);
+}
+
+
+/*wildlife habit*/
+
+.habit .card{
+    transition: 0.5s;
+    margin: 10px 10px;
+}
+
+.habit .card:hover{
+    transform: scale(1.1);
+
+}
+
+.habit h5,
+.habit p{
+    text-align: center;
+}
+
+
+/*map section*/
+
+.map h1{
+    text-align: center;
+    padding-top: 50px;
+    color: olivedrab;
+}
+
+.mapp{
+    margin: 50px auto;
+    width: fit-content;
+    padding-top: 50px;
+    transition: 0.5s;
+
+}
+
+.mapp:hover{
+    transform: scale(1.1);
+}
+
+/*why section*/
+
+.aboutt {
+    padding: 80px 10%;
+    text-align: center;
+}
+
+.aboutt h2 {
+    margin-bottom: 40px;
+    font-size: 40px;
+    padding-top: 30px;
+    color: olivedrab;
+}
+
+.aboutt-containerr {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.cardd {
+    background: white;
+    padding: 30px;
+    max-width: 300px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.cardd:hover {
+    transform: translateY(+10px);
+}
+
+/*footer*/
+
+.foot {
+    background-color: olivedrab;
+    color: white;
+    padding-top: 30px;
+    margin-top: 40px;
+}
+
+.foot1 {
+    display: flex;
+    justify-content:space-around;
+}
+
+
+.section1 img {
+    border: 1px solid white;
+    border-radius: 90px;
+    transition: 0.9s;
+}
+
+.section1 img:hover {
+    transform: scale(0.9);
+}
+
+.section1 p {
+    padding-top: 10px;
+    width: 200px;
+    line-height: 1.5;
+}
+.section2 .conn{
+        padding-top: 10px;
+}
+.conn a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    line-height: 1;
+}
+
+.secc {
+    padding-top: 10px;
+    line-height: 1;
+}
+
+
+.se4 {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    width: fit-content;
+    transition: 0.6s;
+    padding-top: 10px;
+}
+
+.se4 img {
+    border: 2px solid white;
+    border-radius: 80px;
+    transition: 0.8s;
+
+}
+
+.se4 img:hover {
+    transform: scale(1.2);
+}
+
+.at {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+/*wild*/
+
+/*sanc*/
+
+
+.sancc h3 {
+    text-align: center;
+    padding-top: 100px;
+    color: olivedrab;
+}
+
+.sanc {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-top: 50px;
+    justify-content:center;
+}
+.sanc .card{
+    margin: 20px 10px;
+    transition: 0.5s;
+
+}
+.sanc .card:hover{
+    transform: scale(1.1);
+
+}
+
+.card-img-top {
+    padding: 15px;
+}
+
+
+.card-boody h5,
+.card-boody p{
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*map*/
+
+.wild{
+    padding-top: 100px;
+}
+.wild h3{
+    text-align: center;
+    color: olivedrab;
+}
+
+.wmap {
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto ;
+    justify-content:space-evenly;
+}
+.con33 h5{
+    text-align: center;
+    padding: 10px;
+}
+
+
+.para h5 {
+    padding-top: 20px;
+    font-style: italic;
+    font-weight: 500;
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: 0.5s;
+    padding: 15px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.para h5:hover {
+    transform: scale(1.1);
+}
+
+
+/*rare */
+/*extint species*/
+
+.container h2{
+    padding-top: 50px;
+    color: olivedrab;
+}
+
+.card{
+    margin-bottom: 50px;
+}
+.card img{
+    width:100%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-bodyy h5,
+.card-bodyy p {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/*about*/
+
+/*content*/
+
+
+.three {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.third h1 {
+    text-align: center;
+    padding-top: 100px;
+    color: olivedrab;
+}
+
+.quotes {
+    padding-top: 50px;
+}
+
+.quotes .card-body{
+    border: 2px solid white;
+    border-radius: 50px;
+    background-color: olivedrab;
+    color: white;
+    padding: 20px;
+}
+
+.quotes .card{
+    border: none;
+}
+
+/*reviews*/
+
+.revv{
+    padding-top: 50px; 
+    text-align: center;
+    color: olivedrab;
+}
+
+
+.reviews {
+    padding-top: 50px;
+    gap: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+
+.reviews .card-body {
+    border: 2px solid white;
+    border-radius: 40px;
+    box-shadow: 2px 2px 2px 2px;
+    transition: 0.5s;
+    background-color: olive;
+    color: white;
+}
+
+.reviews .card-body:hover{
+    transform:scale(1.1)
+}
+
+
+.dona {
+    padding: 100px 0;
+    text-align: center;
+    color: olivedrab;
+}
+
+.donation-form {
+    margin-top: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.donation-form img {
+    border-radius: 10px;
+}
+
+.donation-form label {
+    font-weight: bold;
+    margin-top: 8px;
+}
+
+.donation-form .btn {
+    width: 180px;
+    font-weight: bold;
+}
+
+.donation-form .btn:hover {
+    background-color: olivedrab;
+}
+
+/*contact*/
+
+/*achieve*/
+
+.achieve {
+    padding-top: 100px;
+    display: flex;
+    justify-content:center;
+    gap: 20px;
+  
+}
+
+.achh1,
+.achh2,
+.achh3 {
+    width: 300px;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.achh1 {
+    background-image: url("./images/box1.jpg");
+}
+
+.achh2 {
+    background-image: url("./images/box2.webp");
+}
+
+.achh3 {
+    background-image: url("./images/box3.png");
+}
+
+
+
+.ach {
+    padding-top: 100px;
+    text-align: center;
+    color: olivedrab;
+}
+
+/*contact*/
+
+.contactus {
+    text-align: center;
+    padding-top: 100px;
+}
+
+
+.contactus h1 {
+    color: olivedrab;
+
+}
+
+.contactus p {
+    padding-top: 15px;
+}
+
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 80px 100px;
+    flex-wrap: wrap;
+}
+
+.con2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+.con3 {
+    flex: 1;
+}
+
+
+.info1 {
+    width: 300px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 18px;
+}
+
+.info1 i {
+    color: olivedrab;
+    font-size: 22px;
+}
+
+
+
+@media (max-width:767px){
+
+    .carousel-item{
+        height:300px;
+    }
+    .offcanvas-body ul{
+        display: none;
+    }
+
+    .secty,
+    .three{
+        margin:20px;
+    }
+
+    .sectyy p{
+        width:100%;
+    }
+
+    video{
+        width:100%;
+        height:auto;
+    }
+
+    .sanc,
+    .reviews,
+    .wmap,
+    .achieve{
+        display:grid;
+        grid-template-columns:1fr;
+    }
+
+    .foot1{
+        flex-direction:column;
+        gap:30px;
+        text-align:center;
+    }
+
+   /* .section1 p{
+        margin-left: 60px;
+
+    }*/
+
+    .aboutt-containerr{
+        flex-direction:column;
+        align-items:center;
+    }
+
+    .mapp{
+        margin:20px;
+    }
+
+    .mapp img{
+        width:100%;
+        height:auto;
+    }
+
+    .contact{
+        flex-direction:column;
+        padding:40px 20px;
+    }
+
+    .con2,
+    .con3{
+        width:100%;
+    }
+
+    .info1{
+        width:100%;
+    }
+
+    .donation-form{
+        padding:20px;
+    }
+
+    .donation-form img{
+        margin-bottom:20px;
+    }
+
+    .card{
+        margin-bottom:20px;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:991px){
+
+    .carousel-item{
+        height:500px;
+    }
+
+    /*.offcanvas-body ul{
+        display: none;
+    }*/
+
+
+    .secty,
+    .three{
+        margin:40px;
+    }
+
+    .sectyy p{
+        width:100%;
+    }
+
+    video{
+        width:100%;
+        height:auto;
+    }
+
+    .sanc{
+        grid-template-columns:repeat(2,1fr);
+        gap:20px;
+    }
+
+    .reviews{
+        grid-template-columns:repeat(2,1fr);
+        margin:30px;
+    }
+
+    .wmap{
+        grid-template-columns:1fr;
+    }
+
+    .mapp{
+        margin:30px auto;
+    }
+
+    .mapp img{
+        width:100%;
+        height:auto;
+    }
+
+    .contact{
+        padding:60px 40px;
+    }
+
+    .foot1{
+        flex-wrap:wrap;
+        gap:40px;
+    }
+
+}
+
+
+@media (min-width:992px){
+
+    .carousel-item{
+        height:900px;
+    }
+
+   .menu{
+    display: none;
+   }
+   
+   .offcanvas-body ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 20px;
+    gap: 40px;
+}
+
+    .sanc{
+        grid-template-columns:repeat(3,1fr);
+        margin-left: 20px;
+    }
+
+    .reviews{
+        grid-template-columns:repeat(4,1fr);
+    }
+
+    .wmap{
+        grid-template-columns:repeat(2,1fr);
+        margin-left: 50px;
+
+    }
+
+}
