@@ -196,6 +196,7 @@ video {
 .section1 p {
     padding-top: 10px;
     width: 200px;
+    text-align: left;
     line-height: 1.5;
 }
 .section2 .conn{
@@ -544,9 +545,12 @@ video {
 @media (max-width:767px){
 
     .carousel-item{
-        height:300px;
+        height: 700px;
     }
     .offcanvas-body ul{
+        display: block;
+    }
+    .mennu ul{
         display: none;
     }
 
@@ -557,6 +561,10 @@ video {
 
     .sectyy p{
         width:100%;
+    }
+
+    .achieve {
+        margin-left: 150px;
     }
 
     video{
@@ -578,10 +586,6 @@ video {
         text-align:center;
     }
 
-   /* .section1 p{
-        margin-left: 60px;
-
-    }*/
 
     .aboutt-containerr{
         flex-direction:column;
@@ -623,19 +627,31 @@ video {
         margin-bottom:20px;
     }
 
+ .section1 p{
+    margin-left: 35%;
+ } 
+ .se4{
+    margin-left: 40%;
+ }
+
 }
 
 
 @media (min-width:768px) and (max-width:991px){
 
     .carousel-item{
-        height:500px;
+        height:700px;
     }
 
-    /*.offcanvas-body ul{
+    .menu{
+        display:block;
+    }
+    .offcanvas-body ul{
+        display: block;
+    }
+    .mennu ul{
         display: none;
-    }*/
-
+    }
 
     .secty,
     .three{
@@ -685,7 +701,6 @@ video {
 
 }
 
-
 @media (min-width:992px){
 
     .carousel-item{
@@ -716,6 +731,7 @@ video {
     .wmap{
         grid-template-columns:repeat(2,1fr);
         margin-left: 50px;
+        gap: 20px;
 
     }
 
