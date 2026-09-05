@@ -15,37 +15,101 @@
 
 
     <!--Navbar-->
-    <nav class="navbar bg-body-tertiary fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="./index.html"><img src="./images/logo.png" alt="img" height="60px"
-                    width="60px"></a>
+   <nav class="navbar bg-body-tertiary fixed-top">
+  <div class="container-fluid">
 
-            <div class="offcanvas-body">
-                <div class="mennu">
-                    <ul>
-                        <a href="./wild.html">
-                            <li class="nav-item">Wildlife Sanctuary</li>
-                        </a>
-                        <a href="./birds.html">
-                            <li class="nav-item">Bird Sanctuary</li>
-                        </a>
-                        <a href="./rare.html">
-                            <li class="nav-item">Rare Species</li>
-                        </a>
-                        <a href="./about.html">
-                            <li class="nav-item">About Us</li>
-                        </a>
-                        <a href="./contact.html">
-                            <li class="nav-item">Contact</li>
-                        </a>
+    <!-- Logo -->
+    <a class="navbar-brand" href="./index.html">
+      <img
+        src="./images/logo.png"
+        alt="Logo"
+        height="60"
+        width="60"
+      />
+    </a>
 
-                    </ul>
-                </div>
+    <!-- Hamburger button - visible on mobile/tablet -->
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="offcanvas"
+      data-bs-target="#mobileMenu"
+      aria-controls="mobileMenu"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
+    <!-- Offcanvas Menu -->
+    <div
+      class="offcanvas offcanvas-end"
+      tabindex="-1"
+      id="mobileMenu"
+      aria-labelledby="mobileMenuLabel"
+    >
 
-            </div>
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="mobileMenuLabel">
+          Wildlife
+        </h5>
 
-        </div>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="offcanvas"
+          aria-label="Close"
+        ></button>
+      </div>
+
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+
+          <li class="nav-item">
+            <a class="nav-link" href="./wild.html">
+              Wildlife Sanctuary
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./birds.html">
+              Bird Sanctuary
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./rare.html">
+              Rare Species
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">
+              About Us
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">
+              Contact
+            </a>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Desktop menu -->
+    <div class="desktop-menu">
+      <ul>
+        <li><a href="./wild.html">Wildlife Sanctuary</a></li>
+        <li><a href="./birds.html">Bird Sanctuary</a></li>
+        <li><a href="./rare.html">Rare Species</a></li>
+        <li><a href="./about.html">About Us</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+  </div>
     </nav>
 
     <!--carousel-->
